@@ -15,7 +15,7 @@ import com.biz.grade.vo.StudentVO;
 public interface StudentService {
 	public void loadStudent();		// student.txt 파일열기
 	public void inputStudent();		// 사용자로부터 학생정보 입력받기
-	public boolean chkStudent();	// student.txt 파일을 열어 학생정보있는지 확인
+	public boolean chkStudent();		// student.txt 파일을 열어 학생정보있는지 확인
 	public void saveStudent();		// 사용자가 입력한 학생정보를 student.txt에 저장
 	public List<StudentVO> getList();
 }
